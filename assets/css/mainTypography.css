@@ -1,0 +1,50 @@
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom:8px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size:24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  color: var(--text-color);
+  margin-bottom:16px;
+  text-decoration:none;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+blockquote {
+  font-family: "Georgia", serif;
+
+  color: var(--quote-color);
+  border-left: 4px solid var(--primary-color);
+
+  display: block;
+margin-block-start:0px;
+margin-block-end: 0px;
+margin-inline-start: 0px;
+margin-inline-end: 0;
+unicode-bidi: isolate;
+}
